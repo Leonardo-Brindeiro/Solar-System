@@ -1,3 +1,72 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(./images/background.png);
+  
 }
+
+header h1 {
+  color: antiquewhite;
+  text-align: center;
+  font-weight: 100;
+  font-size: 80px;
+  line-height: 150%;
+}
+.component-title{
+  color: aliceblue;
+  text-align: center;  
+  padding: 50px;
+  border: 1px solid #FFFF;
+  border-radius: 17px;
+  width: 90vw;
+  font-size: 70px;
+}
+ 
+.planet-card{
+  color: antiquewhite;
+  font-size: 50px;
+                                 
+}
+
+.missions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  color: antiquewhite;
+  font-size: 30px;
+}
+
+.sistema-Solar{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+  animation: rotate 35s linear infinite;
+}
+@keyframes rotate{
+  to{background-position: 50%;}
+}
+
+.name{
+  
+  justify-content: space-around;
+  flex-direction: row;
+  border: 1px solid white;
+  flex-wrap: wrap;
+  align-items: baseline;
+ 
+  text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
